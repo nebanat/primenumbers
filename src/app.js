@@ -2,7 +2,7 @@
  * 
  * author: Aaron Biliyok, receives a number n and generate prime nos from 0 to n 
  */
-function prime_numbers(n){
+function getPrimes(n){
     /**returns invalid if less than or equal to 1,
      * if not type of number
      * **/
@@ -25,8 +25,7 @@ function prime_numbers(n){
 
 
 
-export default prime_numbers
-
+export default getPrimes
 
 
 
